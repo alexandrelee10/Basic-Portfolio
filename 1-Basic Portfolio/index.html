@@ -1,0 +1,360 @@
+<!-- 
+ EXAMPLE CREATED BY https://www.youtube.com/watch?v=5v1yeg94vnU&t=596s
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Arizonia&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+    </script>
+    <script type="text/javascript">
+   (function(){
+      emailjs.init({
+        publicKey: "cc-b5dtMMaxNMucxr",
+      });
+   })();
+</script>
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+    <link rel="stylesheet" href="style.css">
+    <title>Alexandre Lee Portfolio</title>
+</head>
+<body>
+    <!-- NAVIGATION -->
+    <header class="header">
+        <div class="container navbar">
+        <h1><a href="#home" class="logo">Alexandre L.</a></h1>
+        
+        <nav role="navigation">
+            <ul class="nav-menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <button class="hamburger"
+        aria-label="Toggle navigation">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </button>
+    </div>
+    </header>
+    <!-- HERO SECTION -->
+     <section id="home">
+        <div class="container hero">
+            <div class="hero-info">
+                <h2>I'm Alexandre Lee</h2>
+                <span>Backend Software Engineer</span>
+                <p>
+                    A Software Engineer based in Sunrise FL, 
+                    specializing in building and maintaining server-side web applications, including databases, APIs, and servers.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#portfolio">
+                        <button aria-label="View my portfolio">My Portfolio</button>
+                    </a>
+                    <a href="/Alexandre Lee Resume.pdf" download="/ Alexandre-Lee-Resme.pdf">
+                        <button aria-label="Download my resume">Download Resume</button>
+                    </a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="assets/pfp.png" alt="image of Alexandre Lee">
+            </div>
+        </div>
+     </section>
+     <!-- ABOUT SECTION (Have chatgpt explain this section to me) -->
+     <section id="about" class="about" aria-labelledby="about-heading">
+        <h2 class="section-titles" id="about-heading">
+            About Me
+        </h2>
+        <div class="container about-inner">
+            <div class="about-info">
+                <p>I'm Alexandre Lee, a backend software engineer who lives in Sunrise FL. Although I chose to specialize in backend engineering I am also able to work as a front end engineer as well. I can develop websites using softwares such as wordpress, shopify, and wix with the ability to engineer additional through custom coding (HTML, CSS, JavaScript, React) to create responsive websites! </p>
+                <ul>
+                    <li>Age: 24</li>
+                    <li>Email: alexandrelincolnlee@gmail.com</li>
+                    <li>Phone: +1 (954) 804-8498</li>
+                </ul>
+            </div>
+            <div class="skills">
+                <!-- 1 -->
+                <div class="progress-bar" data-percentage="90">  <!--When using data- you can name it whatever you want after. But this stores custom data -->
+                    <div class="label">HTML: 90%</div>
+                    <div class="bar"><!-- Left empty on purpose --></div>
+                </div>
+                <!-- 2 -->
+                <div class="progress-bar" data-percentage="70">  
+                    <div class="label">CSS: 70%</div>
+                    <div class="bar"><!-- Left empty on purpose --></div>
+                </div>
+                <!-- 3 -->
+                <div class="progress-bar" data-percentage="80">  
+                    <div class="label">TypeScript: 80%</div>
+                    <div class="bar"><!-- Left empty on purpose --></div>
+                </div>
+                <!-- 4 -->
+                <div class="progress-bar" data-percentage="80">  
+                    <div class="label">JavaScript: 80%</div>
+                    <div class="bar"><!-- Left empty on purpose --></div>
+                </div>
+                <!-- 5 -->
+                <div class="progress-bar" data-percentage="70">  
+                    <div class="label">React: 70%</div>
+                    <div class="bar"><!-- Left empty on purpose --></div>
+                </div>
+            </div>
+        </div>
+     </section>
+     <!-- JOB SECTION -->
+    <section id="experience" 
+    class="jobs" 
+    aria-labelledby="experience">
+        <h2 class="section-titles" id="experience-heading">
+            Experience
+        </h2>
+        <div class="container">
+            <div class="job-list">
+                <!-- FIRST LEFT JOB -->
+                <div class="job-item job-item-left">
+                    <div>
+                        <span class="job-date date-left">
+                            July 2025 - Now
+                        </span>
+                        <div class="job-content">
+                            <img class="job-logo" src="assets/youtube.png" alt="Youtube logo">
+                            <h5>Frontend Software Engineer - Youtube</h5>
+                            <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur voluptates eius voluptas pariatur quisquam vero quam neque, temporibus sint repudiandae amet consequatur ipsam hic ex velit praesentium unde reprehenderit dolor.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <!-- FIRST RIGHT JOB -->
+                <div class="job-right">
+                    <div class="job-item job-item-right">
+                        <div>
+                            <span class="job-date date-right">
+                                October 2023 - November 2024
+                            </span>
+                            <div class="job-content">
+                                <img class="job-logo" src="assets/apple.png" alt="Apple logo">
+                                <h5>Backend Software Engineer - Apple</h5>
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur voluptates eius voluptas pariatur quisquam vero quam neque, temporibus sint repudiandae amet consequatur ipsam hic ex velit praesentium unde reprehenderit dolor.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                    <div class="job-item job-item-left">
+                        <div>
+                            <span class="job-date date-left">
+                                May 2022- October 2023
+                            </span>
+                            <div class="job-content">
+                                <img class="job-logo" src="assets/fb.png" alt="Facebook logo">
+                                <h5>Backend Software Engineer - Facebook</h5>
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur voluptates eius voluptas pariatur quisquam vero quam neque, temporibus sint repudiandae amet consequatur ipsam hic ex velit praesentium unde reprehenderit dolor.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="job-right">
+                        <div class="job-item job-item-right">
+                            <div>
+                                <span class="job-date date-right">
+                                    May 2020 - May 2022
+                                </span>
+                                <div class="job-content">
+                                    <img class="job-logo" src="assets/google.png" alt="Google logo">
+                                    <h5> Frontend Software Engineer - Google</h5>
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur voluptates eius voluptas pariatur quisquam vero quam neque, temporibus sint repudiandae amet consequatur ipsam hic ex velit praesentium unde reprehenderit dolor.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <!-- PROJECT SECTION -->
+    <section
+      id="portfolio"
+      class="portfolio"
+      aria-labelledby="portfolio-heading"
+    >
+      <h2 class="section-titles" id="portfolio-heading">
+        Some of my work
+      </h2>
+      <div class="container">
+        <div class="projects">
+          <div class="project-images">
+            <div class="project">
+              <div class="card">
+                <div class="bg-overlay"></div>
+                <img
+                  src="assets/p1.png"
+                  alt="project-image"
+                  class="overlay-image"
+                />
+                <img
+                  src="assets/p1.png"
+                  alt="project-image"
+                  class="main-image"
+                />
+              </div>
+
+              <div class="content">
+                <h4>Tech Pulse</h4>
+                <span>Next.js / Tailwind</span>
+              </div>
+            </div>
+            <div class="project">
+              <div class="card">
+                <div class="bg-overlay"></div>
+                <img
+                  src="assets/p1.png"
+                  alt="project-image"
+                  class="overlay-image"
+                />
+                <img
+                  src="assets/p1.png"
+                  alt="project-image"
+                  class="main-image"
+                />
+              </div>
+
+              <div class="content">
+                <h4>Tech Pulse</h4>
+                <span>Next.js / Tailwind</span>
+              </div>
+            </div>
+            <div class="project">
+              <div class="card">
+                <div class="bg-overlay"></div>
+                <img
+                  src="assets/p1.png"
+                  alt="project-image"
+                  class="overlay-image"
+                />
+                <img
+                  src="assets/p1.png"
+                  alt="project-image"
+                  class="main-image"
+                />
+              </div>
+
+              <div class="content">
+                <h4>Tech Pulse</h4>
+                <span>Next.js / Tailwind</span>
+              </div>
+            </div>
+            <div class="project">
+              <div class="card">
+                <div class="bg-overlay"></div>
+                <img
+                  src="assets/p1.png"
+                  alt="project-image"
+                  class="overlay-image"
+                />
+                <img
+                  src="assets/p1.png"
+                  alt="project-image"
+                  data-image="1"
+                  class="main-image"
+                />
+              </div>
+
+              <div class="content">
+                <h4>Tech Pulse</h4>
+                <span>Next.js / Tailwind</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <div class="container">
+        <h1>Let's Have a <strong>discussion!</strong></h1>
+      </div>
+      <p>
+        Please allow 24-48 hours for a response. Thank you!
+      </p>
+      <div>
+        <form
+          id="contact-form"
+          aria-label="Contact-Form"
+          onsubmit="sendMail()"
+        >
+          <div class="form-row">
+            <input
+              type="text"
+              name="name"
+              id="name"
+              class="form-input"
+              placeholder="Your Name"
+              required
+              aria-label="Your name"
+            />
+            <input
+              type="email"
+              name="email"
+              id="email"
+              class="form-input"
+              placeholder="Your Email"
+              required
+              aria-label="Your email"
+            />
+          </div>
+
+          <textarea
+            name="message"
+            id="message"
+            rows="6"
+            class="form-input"
+            required
+            placeholder="Enter your message here..."
+            style="resize: none"
+            aria-label="Your message"
+          ></textarea>
+
+          <div class="form-button">
+            <button type="submit">
+              Submit Your Message
+            </button>
+          </div>
+        </form>
+      </div>
+    </section>
+    <footer>
+      <div class="container footer-container">
+        <p>
+          &copy;AlexandreLee.com All Rights Reserved.
+        </p>
+        <div class="footer-icon">
+          <ion-icon name="logo-facebook"></ion-icon>
+          <ion-icon name="logo-github"></ion-icon>
+          <ion-icon name="logo-discord"></ion-icon>
+          <ion-icon name="logo-discord"></ion-icon>
+        </div>
+      </div>
+    </footer>
+    <script src="app.js"></script>
+</body>
+</html>
